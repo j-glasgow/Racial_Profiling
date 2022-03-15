@@ -55,3 +55,8 @@ form {
     margin-right: auto;
     width: 50%;
   }
+  /* Table on Information Sheet */
+  table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
