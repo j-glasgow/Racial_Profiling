@@ -41,10 +41,15 @@ form {
   /* Style the submit button */
   input[type=submit] {
     background-color: #CF4522;
+    border-radius: 10px; /*submit button shape*/
     color: white;
     border: none;
   }
   
+  input[tpye=submit]:active {
+    background-color: #c76b54;
+  }
+
   input[type=submit]:hover {
     opacity: 0.8;
   }
