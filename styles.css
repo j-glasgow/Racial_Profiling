@@ -65,3 +65,15 @@ form {
     border: 1px solid black;
     border-collapse: collapse;
   }
+
+  .float-left {
+    float: left;
+}
+  .float-right {
+   float: right;
+  }
+@media screen and (max-width: 480px){
+  h1{
+  float-right: none;
+  }
+}
